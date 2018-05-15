@@ -1,18 +1,14 @@
----
-layout: post
-title: Webscraping Homework
----
-How it's done:
-
 Steps:
-* I opened the html code of the site and looked for the link to the article that I want to download later on.
 
-* Copy/pasted the entire html-code into my texteditor.
+* I copied the html/source code of http://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:RichTimes into my texteditor.
+
 ![](../img/stage1.png)
 
-* Using Regular Expressions, I extracted the link(s) to the article(s). 
+
+* Using Regular Expressions, I filtred the links I needed to download the articles later on. 
+
 ![](../img/stage2.png)
 
-* Then inserted the rest of the link, so I could download it.
+* Then I inserted missing parts of the linku using Regular Expressions: `^ www.perseus.tufts.edu/hopper/dl`
 
-* Downloaded the files via Wget.
+* After collecting all the links in one text files and using the command line and wget I downloaded the the xmls of the articles.
