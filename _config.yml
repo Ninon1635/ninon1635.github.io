@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: KU: Tools & Techniques
+title: DH Tools & Techiniques
 
 # Short description of your site
-description: My Homwork Site
+description: A virtual proof that name is awesome!
 
 # --- Navigation bar options --- #
 
@@ -37,7 +37,6 @@ avatar: "/img/avatar-icon.png"
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 # title-img: /path/to/image
-theme: jekyll-theme-kagami
 
 # --- Background colour/image options --- #
 
